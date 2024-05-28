@@ -1,0 +1,45 @@
+apiVersion: v1
+entries:
+  tomcat:
+  - annotations:
+      category: ApplicationServer
+      images: |
+        - name: jmx-exporter
+          image: docker.io/bitnami/jmx-exporter:0.20.0-debian-12-r17
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r21
+        - name: tomcat
+          image: docker.io/bitnami/tomcat:10.1.24-debian-12-r1
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 10.1.24
+    created: "2024-05-28T16:08:26.5017292+09:00"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Apache Tomcat is an open-source web server designed to host and run
+      Java-based web applications. It is a lightweight server with a good performance
+      for applications running in production environments.
+    digest: aad27a6ebc48b4ffc120ae032fe43e6c66d82909e21be8c00e0c3023bba1e790
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/tomcat/img/tomcat-stack-220x234.png
+    keywords:
+    - tomcat
+    - java
+    - http
+    - web
+    - application server
+    - jsp
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: tomcat
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/tomcat
+    urls:
+    - tomcat-11.1.1.tgz
+    version: 11.1.1
+generated: "2024-05-28T16:08:26.4956707+09:00"
