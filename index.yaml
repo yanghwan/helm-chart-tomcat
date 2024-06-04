@@ -13,7 +13,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.4.59
-    created: "2024-06-04T09:37:42.6194907+09:00"
+    created: "2024-06-04T09:57:56.0037247+09:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -55,7 +55,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.1.24
-    created: "2024-06-04T09:37:42.636102+09:00"
+    created: "2024-06-04T09:57:56.0078221+09:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -84,4 +84,4 @@ entries:
     urls:
     - stable/tomcat-11.1.1.tgz
     version: 11.1.1
-generated: "2024-06-04T09:37:42.6156173+09:00"
+generated: "2024-06-04T09:57:55.9987274+09:00"
